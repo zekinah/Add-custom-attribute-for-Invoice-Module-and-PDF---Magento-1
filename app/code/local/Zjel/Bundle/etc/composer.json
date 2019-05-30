@@ -1,0 +1,15 @@
+{
+    "name": "Zjel/Bundle",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "Overide Bundle PDF Invoice",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Zeknah Joy Lecaros",
+            "email":"zjlecaros@gmail.com"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Zjel_Sales>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends><Mage_Sales/></depends>
+        </Zjel_Sales>
+    </modules>
+</config>

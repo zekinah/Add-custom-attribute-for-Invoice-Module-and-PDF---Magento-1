@@ -1,0 +1,15 @@
+{
+    "name": "Zjel/Sales",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "Overide Sales PDF Invoice",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Zekinah Joy Lecaros",
+            "email":"zjlecaros@gmail.com"
+        }
+    ]
+}

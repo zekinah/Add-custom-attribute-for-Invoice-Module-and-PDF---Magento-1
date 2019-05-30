@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Zjel_Bundle>
+            <version>1.0.0</version>
+        </Zjel_Bundle>
+    </modules>
+    <global>
+        <!-- <blocks>
+            <zjel_bundle>
+                <class>Zjel_Bundle_Block</class>
+            </zjel_bundle>
+        </blocks>
+        <helpers>
+            <zjel_bundle>
+                <class>Zjel_Bundle_Helper</class>
+            </zjel_bundle>
+        </helpers> -->
+        <models>
+            <zjel_bundle>
+                <class>Zjel_Bundle_Model</class>
+            </zjel_bundle>
+            <bundle>
+                <rewrite>
+                    <sales_order_pdf_items_invoice>Zjel_Bundle_Model_Sales_Order_Pdf_Items_Invoice</sales_order_pdf_items_invoice>
+                </rewrite>
+            </bundle>
+        </models>
+        <!-- <resources>
+            <zjel_bundle_setup>
+                <setup>
+                    <module>Zjel_Bundle</module>
+                </setup>
+            </zjel_bundle_setup>
+        </resources> -->
+    </global>
+    <!-- <frontend>
+        <routers>
+            <zjel_bundle>
+                <use>standard</use>
+                <args>
+                    <frontName>bundle</frontName>
+                    <module>Zjel_Bundle</module>
+                </args>
+            </zjel_bundle>
+        </routers>
+    </frontend> -->
+</config>

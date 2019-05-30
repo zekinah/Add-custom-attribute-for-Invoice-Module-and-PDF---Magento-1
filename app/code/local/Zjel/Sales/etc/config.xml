@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Zjel_Sales>
+            <version>1.0.0</version>
+        </Zjel_Sales>
+    </modules>
+    <global>
+        <!-- <blocks>
+            <zjel_sales>
+                <class>Zjel_Sales_Block</class>
+            </zjel_sales>
+        </blocks>
+        <helpers>
+            <zjel_sales>
+                <class>Zjel_Sales_Helper</class>
+            </zjel_sales>
+        </helpers> -->
+        <models>
+            <zjel_sales>
+                <class>Zjel_Sales_Model</class>
+            </zjel_sales>
+            <sales>
+                <rewrite>
+                    <order_pdf_invoice>Zjel_Sales_Model_Order_Pdf_Invoice</order_pdf_invoice>
+                    <order_pdf_items_invoice_default>Zjel_Sales_Model_Order_Pdf_Items_Invoice_Default</order_pdf_items_invoice_default>
+                </rewrite>
+            </sales>
+        </models>
+        <!-- <resources>
+            <zjel_sales_setup>
+                <setup>
+                    <module>Zjel_Sales</module>
+                </setup>
+            </zjel_sales_setup>
+        </resources> -->
+    </global>
+    <!-- <frontend>
+        <routers>
+            <zjel_sales>
+                <use>standard</use>
+                <args>
+                    <frontName>sales</frontName>
+                    <module>Zjel_Sales</module>
+                </args>
+            </zjel_sales>
+        </routers>
+    </frontend> -->
+</config>
